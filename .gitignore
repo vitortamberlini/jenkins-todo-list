@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+venv-django-todolist/
+
+# Django migrations (se quiser ignorar migrações geradas)
+core/migrations/
+!core/migrations/__init__.py  # mantém o __init__.py
+
+# Arquivos de configuração sensíveis
+to_do/.env
+
+# VSCode / IDE
+.vscode/
+.idea/
+

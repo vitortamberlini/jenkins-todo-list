@@ -1,0 +1,15 @@
+# Ignora venv local
+venv-django-todolist/
+
+# Ignora caches do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignora migrações se não quiser levar pro container
+*.sqlite3
+
+# Ignora arquivos do git
+.git
+.gitignore
+
